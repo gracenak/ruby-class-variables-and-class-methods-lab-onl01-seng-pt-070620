@@ -31,7 +31,7 @@ class Song
     genre_count = {}
     new_hash.each {|genre|genre_count[genre] +=1}
     genre_count
-    binding.pry
+  binding.pry
   end
   
     
